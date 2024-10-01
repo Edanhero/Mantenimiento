@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color_text-primary: #dde7c6;
+    --color_text-secundary: black;    
+    --main_color-primary: #a1b96f;       
+    --main_color-secundary: black;     
+    --box_shadow-primary: 0px 6px 50px -20px rgba(0,0,0,0.2); 
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--main_color-primary);
+}
+
+.container_header {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color:transparent;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu nav {
+    margin: 0px 25px;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.menu nav ul li a {
+    color: var(--color_text-secundary);
+    font-size: 15px;
+    position: relative;
+}
+
+.menu nav ul li a:hover {
+    color: var(--color_text-primary);
+}
+.btn_quote {
+    display: block;
+    padding: 8px 40px;
+    border: 5px solid var(--color_text-primary);
+    border-radius: 8px;
+    font-weight: 400;
+    color: var(--color_text-secundary);
+    transition: all 300ms;
+}
+
+.btn_quote:hover {
+    color: var(--main_color-primary);
+    background: var(--color_text-primary);
+}
+
+.body {
+    background-color: aliceblue;
+}
+
+.menu .socialMedia {
+    margin: 0px 50px;
+}
+
+.menu .socialMedia a {
+    margin: 0px 4px;
+}
+
+.menu .socialMedia img {
+    width: 25px;
+}
+
+.container_cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--color_text-primary);
+}
+
+.cover {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.text_cover{
+    width: 100%;
+    padding-right: 110px;
+}
+
+.text_cover h1 {
+    font-size: 50px;
+    color: var(--main_color-secundary);
+    text-align: center;
+}
+
+.text_cover p {
+    font-size: 20px;
+    margin-top: 40px;
+    color: var(--color_text-secundary);
+}
+
+.btn__text {
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: var(--main_color-primary);
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn__text:hover {
+    background: transparent;
+    border: 2px solid var(--main_color-primary);
+    color: var(--color_text-secundary);
+}
+
+.image__cover {
+    width: 100%;
+}
+
+.image__cover img {
+    width: 550px;
+}
+
+.container_card-primary {
+    padding-top: 100px;
+}
+
+.card__primary {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.text_card-primary {
+    max-width: 800px;
+    margin: auto;
+}
+
+.text_card-primary p {
+    color: black;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text_card-primary h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container_box-cardPrimary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.box_card-primary {  
+    max-width: 350px;
+    padding: 50px;
+    border: 1px solid var(--main_color-primary);
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+
+.box_card-primary:hover {
+    border: 5px solid var(--main_color-primary);
+    box-shadow: var(--main_color-primary);
+}
+
+.box_card-primary img {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px;
+}
+
+.box_card-primary p{
+    margin-top: 20px;
+}
+
+main {
+    width: 100%;
+}
