@@ -338,3 +338,55 @@ main {
     transition: transform 0.3s ease; 
 }
 
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.form {
+    
+    padding: 20px;
+    background-color: transparent;
+}
+
+.contact-form h2 {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: var(--main_color-primary);
+    border-color: var(--main_color-primary);
+    border-radius: 10px;
+    border-style:solid;
+}
+
+.form-group select {
+    padding: 6px;
+}
+
+.map-container {
+    height: 800px;
+}
