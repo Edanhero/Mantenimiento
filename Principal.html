@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina final UFPSO</title>
+    <title>Jedinsher</title>
     <link rel="stylesheet" href="Principal.css">
+    <link rel="icon" href="./imagenes/LOGO.PNG.png">
 </head>
 <body class="body">
     <header>
@@ -18,11 +19,11 @@
             <div class="menu" > 
                 <nav>
                     <ul>
-                        <li><a href="#">Facturacion electronica</a></li>
-                        <li><a href="#">Exogena</a></li>
-                        <li><a href="#">Retencion</a></li>
-                        <li><a href="#">Declaracion IVA</a></li>
-                        <li><a href="#">DIAN</a></li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#plataforma">Plataforma</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicio">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
                 <a href="#" class="btn_quote">Login</a>
@@ -41,7 +42,7 @@
         </div>
     </header>
     <main >
-        <div class="container_cover div_offset" >
+        <div class="container_cover div_offset"  >
             <div class="cover">
                 <section class="text_cover">
                     <h1>La contabilidad: Clave para el Éxito Empresarial</h1>
@@ -53,7 +54,7 @@
                 </section>
             </div>
         </div>
-        <div class="container_card-primary">
+        <div class="container_card-primary" id="plataforma"> 
             <div class=" card__primary">
                 <div class="text_card-primary" >
                     <p>Las plataforma de trabajos</p>
@@ -78,12 +79,12 @@
                 </div>
             </div>
         </div>
-        <div class="container__about div__offset">
-            <div class="about">
+        <div class="container__about div__offset" id="nosotros">
+            <div class="about" >
                 <div class="text_about">
                     <h1> John Edinson Hernandez </h1>
                     <p> Soy contador publico, con mas de 10 años de experiencia en el campo laboral, en esta decada he concluido con muchos proyectos, y puedo ser tu contador de confianza</p>
-                    <a href="#" class="btn__text-about btn__text">Saber mas </a>
+                    <a href="saberMas.html" class="btn__text-about btn__text" target="_blank">Saber mas </a>
                 </div>
                 <div class="image__about"> 
                     <img src="./imagenes/about1.png" alt="">
@@ -91,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <div class="container_service container_card-primary div__offset">
+        <div class="container_service container_card-primary div__offset" id="servicio">
             <div class="service card__primary">
                 <div class="text_service text_card-primary">
                     <p>QUE HACEMOS</p>
@@ -171,7 +172,7 @@
 				</div>
             </div>
         </div>
-        <div class="container_cover div_offset" >
+        <div class="container_cover div_offset" id="contacto" >
             <div class="cover">
                 <section class="text_cover">
                     <div class="contact-form">
@@ -199,7 +200,7 @@
                                 <label for="text">Descripcion</label>
                                 <input type="text" id="text" name="text" required>
                             </div>
-                            <input type="submit" value="Registrarse">
+                            <input type="submit" value="Enviar">
                         </form>
                     </div>
                 </section>
