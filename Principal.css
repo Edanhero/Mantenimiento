@@ -390,3 +390,43 @@ input[type="submit"]:hover {
 .map-container {
     height: 800px;
 }
+
+.footer_main {
+    padding: 10px 0px;
+    display: flex;
+    background-color: grey;
+    
+}
+
+.footer_nav {
+    color: black;
+}
+
+.image__footer {
+    padding: 15px 30px;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+.footer_nav li {
+    list-style: none;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.footer_nav li a {
+    color: black;
+}
+
+.footer_nav li a:hover {
+    color: var(--color_text-primary)
+}
+
+.footer_secundary {
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.container_footer { 
+    
+}
