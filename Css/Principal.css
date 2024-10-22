@@ -325,7 +325,7 @@ main {
     text-align: left;
     background-size: cover;
     background-position: center;
-    background-image: url(./imagenes/facturaciones.jpg);
+    background-image: url(/imagenes/crecimiento.png);
 }
 
 .card_proyect h2, .card_proyect p {
