@@ -162,6 +162,9 @@ header {
     border: 2px solid var(--main_color-primary);
     color: var(--color_text-secundary);
 }
+.btn__text-about {
+    width: 200px;
+}
 
 .image__cover {
     width: 100%;
@@ -395,7 +398,7 @@ input[type="submit"]:hover {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 90px;
     display: flex;
     justify-content: flex-start; 
 }
